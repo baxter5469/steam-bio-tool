@@ -12,20 +12,20 @@ print("Options for formatting: Header, Bold, Underline, Italic, Strike, Spoiler,
 input()
 while checkinput:
     tool = input(str("Enter Which format tool you would like to use:")).lower()
-    if tool == "header"
+    if tool == "header" or tool == "bold" or tool == "underline" or tool == "italic" or tool == "strike" or tool == "spoiler" or tool == "url":
         checkinput = False
 checkinput = True
 if tool == "header":
     print("works :D")
-if tool == "Bold":
+if tool == "bold":
     print("confirmed")
-if tool == "Underline":
+if tool == "underline":
     print("confirmed")
-if tool == "Italic":
+if tool == "italic":
     print("confirmed")
-if tool == "Strike":
+if tool == "strike":
     print("confirmed")
-if tool == "Spoiler":
+if tool == "spoiler":
     print("confirmed")
-if tool == "URL":
+if tool == "url":
     print("confirmed")
