@@ -5,10 +5,11 @@ Easily and quickly format your Steam Bio and info box!
 tool = 0
 checkinput = True
 print("Welcome to the Steam Bio Tool v0.1")
-input()
 print("Press 'Enter' after each line of text appears to read the directions")
 input()
 print("Options for formatting: Header, Bold, Underline, Italic, Strike, Spoiler, URL")
+input()
+print("If you would like to do multiple formats just go through the program again and copy the first formatted text.")
 input()
 while checkinput:
     tool = input(str("Enter Which format tool you would like to use:")).lower()
@@ -23,12 +24,17 @@ if tool == "bold":
     print("Copy this into your steam bio or info box: " + "[b]" + boldin + "[/b]")
 if tool == "underline":
     underin = input("Enter what text you would like to be Underlined: ")
+    print("Copy this into your steam bio or info box: " + "[u]" + underin + "[/u]")
 if tool == "italic":
     italicin = input("Enter what text you would like to be Italic: ")
+    print("Copy this into your steam bio or info box: " + "[i]" + italicin + "[/i]")
 if tool == "strike":
     strikein = input("Enter what text you would like to be Striked: ")
+    print("Copy this into your steam bio or info box: " + "[strike]" + strikein + "[/strike]")
 if tool == "spoiler":
     spoilerin = input("Enter what text you would like to have Spoiler: ")
+    print("Copy this into your steam bio or info box: " + "[spoiler]" + spoilerin + "[/spoiler]")
 if tool == "url":
     urlin = input("Enter the url you would like to be linked: ")
     urlname = input("Enter the name you would like the URL to be linked as: ")
+    print("Copy this into your steam bio or info box: " + "[url=" + urlin + "]" + urlname + "[/url]")
