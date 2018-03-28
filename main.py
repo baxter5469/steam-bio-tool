@@ -17,9 +17,10 @@ while checkinput:
 checkinput = True
 if tool == "header":
     headerin = input("Enter what text you would like to be Header: ")
-    print("[h1]" + headerin + "[/h1]")
+    print("Copy this into your steam bio or info box: " + "[h1]" + headerin + "[/h1]")
 if tool == "bold":
     boldin = input("Enter what text you would like to be Bold: ")
+    print("Copy this into your steam bio or info box: " + "[b]" + boldin + "[/b]")
 if tool == "underline":
     underin = input("Enter what text you would like to be Underlined: ")
 if tool == "italic":
