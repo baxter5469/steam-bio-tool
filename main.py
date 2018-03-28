@@ -16,16 +16,17 @@ while checkinput:
         checkinput = False
 checkinput = True
 if tool == "header":
-    print("works :D")
+    headerin = input("Enter what text you would like to be Header: ")
 if tool == "bold":
-    print("confirmed")
+    boldin = input("Enter what text you would like to be Bold: ")
 if tool == "underline":
-    print("confirmed")
+    underin = input("Enter what text you would like to be Underlined: ")
 if tool == "italic":
-    print("confirmed")
+    italicin = input("Enter what text you would like to be Italic: ")
 if tool == "strike":
-    print("confirmed")
+    strikein = input("Enter what text you would like to be Striked: ")
 if tool == "spoiler":
-    print("confirmed")
+    spoilerin = input("Enter what text you would like to have Spoiler: ")
 if tool == "url":
-    print("confirmed")
+    urlin = input("Enter the url you would like to be linked: ")
+    urlname = input("Enter the name you would like the URL to be linked as: ")
