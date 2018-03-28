@@ -17,6 +17,7 @@ while checkinput:
 checkinput = True
 if tool == "header":
     headerin = input("Enter what text you would like to be Header: ")
+    print("[h1]" + headerin + "[/h1]")
 if tool == "bold":
     boldin = input("Enter what text you would like to be Bold: ")
 if tool == "underline":
