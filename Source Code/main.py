@@ -2,14 +2,19 @@
 3/27/18
 Easily and quickly format your Steam Bio and info box!
 '''
+import steamapi
 tool = 0
 checkinput = True
 print("Welcome to the Steam Format Tool v1.2")
 print("Press 'Enter' after each line of text appears to read the directions")
 input()
+steamid = print("Please Enter your steam id 64: ")
+input()
 print("Options for formatting: Header, Bold, Underline, Italic, Strike, Spoiler, URL")
 input()
 print("If you would like to do multiple formats just go through the program again and copy the first formatted text.")
+input()
+steamapi.user.SteamUser(steamid)
 input()
 while checkinput:
     tool = input(str("Enter Which format tool you would like to use:")).lower()
