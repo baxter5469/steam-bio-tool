@@ -1,9 +1,6 @@
 # Steam Format Tool
-# Install Instructions
-* Download the Zip File from Github
-* Open the "SteamFormatCX_Freeze" Folder
-* Run the .exe file
-*  Easily customize your steam profile bio or info box to make your profile look awesome!
+# How to Download
+* Coming Soon to BDG Utilities
 
 # Features Supported:
 * Bold Text
