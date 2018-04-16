@@ -2,6 +2,7 @@
 3/27/18
 Easily and quickly format your Steam Bio and info box!
 '''
+import tkinter as tk
 tool = 0
 checkinput = True
 print("Welcome to the Steam Format Tool v1.2")
